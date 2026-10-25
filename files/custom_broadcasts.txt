@@ -1,0 +1,3 @@
+# Replace the line below with your friend's ZeroTier IP address
+# Ask them to run: Get-NetIPAddress -AddressFamily IPv4 in PowerShell while ZeroTier is connected
+# Then put their IP here (e.g. 10.81.30.xxx)
