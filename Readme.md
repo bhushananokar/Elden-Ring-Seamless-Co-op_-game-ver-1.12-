@@ -7,7 +7,7 @@
 - Elden-Ring ver 1.12
 - Zero Tier: https://www.zerotier.com/download/
 - Fix for seamless co.op: https://github.com/cfrBernard/Seamless-coop-fix
-- Soruce for the steam_emu and appid files: https://github.com/K3V1991/How-to-install-Seamless-Co-Op-Mod-for-Elden-Ring
+- Source for the steam_emu and appid files: https://github.com/K3V1991/How-to-install-Seamless-Co-Op-Mod-for-Elden-Ring
 
 ## Steps:
 
@@ -42,10 +42,11 @@ After download only one person has to login on the zero tier website
 7. open account_name.txt , here enter any account name you want
 8. open user_steam_id.txt , you will have a number here change it a bit (ensure that every player has a different number)
 9. ensure that the listen_port.txt says 47584
-10. go back to folder from step 2, add the steam_emu.ini, steam_appid.txt and steam_interfaces.txt(this might not be necessary but add it to be on the safer side) present in the files folder of this repo to it.
-11. create a new folder named steam_settings in the same folder from the earlier step
-12. inside this steam_settings folder add the custom_broadcast.txt file from the files folder of the repo
-13. inside this file every player of every other player (no need to add your own ip) you will find the ips under your the zero tier org
+10. download steam_emu.ini, steam_appid.txt from Fix for seamless co.op from required stuff
+11. go back to folder from step 2, add the steam_emu.ini, steam_appid.txt you just downloaded and steam_interfaces.txt(present in the files folder of this repo NOTE: this might not be necessary but add it to be on the safer side)  to it.
+12. create a new folder named steam_settings in the same folder from the earlier step
+13. inside this steam_settings folder add the custom_broadcast.txt file from the files folder of the repo
+14. inside this file every player of every other player (no need to add your own ip) you will find the ips under your the zero tier org
 
 ## seamless coop setup
 
